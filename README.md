@@ -49,3 +49,29 @@ Random Forest outperformed Logistic Regression and provided better fraud detecti
 ## Author
 
 SRINITHI N
+## Week 2: Handling Imbalanced Data using SMOTE
+
+### Objective
+To address the class imbalance problem in the Credit Card Fraud Detection dataset.
+
+### Implementation
+- Applied SMOTE (Synthetic Minority Oversampling Technique)
+- Balanced fraud and genuine transaction classes
+- Trained Logistic Regression and Random Forest models
+- Evaluated model performance using Precision, Recall and F1-Score
+
+### Results
+
+Original Class Distribution:
+- Genuine: 284315
+- Fraud: 492
+
+After SMOTE:
+- Genuine: 227451
+- Fraud: 227451
+
+### Conclusion
+
+SMOTE successfully balanced the dataset.
+
+Random Forest provided the best balance between fraud detection and false positive reduction.

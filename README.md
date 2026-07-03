@@ -75,3 +75,27 @@ After SMOTE:
 SMOTE successfully balanced the dataset.
 
 Random Forest provided the best balance between fraud detection and false positive reduction.
+
+# Week 3 - Autoencoder for Deep Anomaly Detection
+
+## Objectives
+- Implemented an Autoencoder using TensorFlow.
+- Trained only on normal transactions.
+- Detected fraudulent transactions using reconstruction error.
+
+## Technologies
+- Python
+- TensorFlow/Keras
+- Pandas
+- NumPy
+- Scikit-learn
+
+## Results
+
+Training completed for 10 epochs.
+
+Accuracy: 95%
+
+Fraud Recall: 87%
+
+The Autoencoder successfully detected most fraudulent transactions using reconstruction error.

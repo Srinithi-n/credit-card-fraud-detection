@@ -1,2 +1,11 @@
-tensorflow
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
 imbalanced-learn
+tensorflow
+torch
+transformers
+sentencepiece
+accelerate

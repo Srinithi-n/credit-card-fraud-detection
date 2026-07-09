@@ -99,3 +99,28 @@ Accuracy: 95%
 Fraud Recall: 87%
 
 The Autoencoder successfully detected most fraudulent transactions using reconstruction error.
+
+# Week 4 - NLP using BERT
+
+## Objective
+Apply a pretrained BERT model to transaction descriptions and perform fraud classification.
+
+## Work Completed
+- Generated transaction descriptions for demonstration.
+- Extracted text embeddings using DistilBERT.
+- Applied SMOTE to balance the training data.
+- Trained a Logistic Regression classifier.
+- Evaluated the model using Precision, Recall and F1-score.
+
+## Technologies Used
+- Python
+- Transformers (Hugging Face)
+- PyTorch
+- Scikit-learn
+- imbalanced-learn
+
+## Results
+- Successfully implemented a BERT-based fraud detection pipeline.
+- Generated embeddings from transaction descriptions.
+- Balanced the dataset using SMOTE.
+- Evaluated the classifier on a held-out test set.
